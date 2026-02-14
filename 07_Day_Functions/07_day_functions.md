@@ -357,6 +357,14 @@ const square = n => {
 
 console.log(square(2))  // -> 4
 
+// Area Of A Circle Through Arrow Function
+const area_of_circle = r => {
+let pi = 3.142;
+return pi * r * r;
+}
+
+console.log(area_of_circle(3));
+
 // if we have only one line in the code block, it can be written as follows, explicit return
 const square = n => n * n  // -> 4
 ```
